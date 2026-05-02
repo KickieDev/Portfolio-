@@ -1,0 +1,192 @@
+css
+      /*—BOX MODEL FIX—*/
+      * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      }
+      /*—PAGE BODY—*/
+    body {
+        background-color: #f0f4f8;
+        font-family: Arial, sans-serif;
+        color: #333333;
+        padding: 0;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      /*—NAVIGATION—*/
+      nav {
+        background-color: #0c447c;
+        padding: 14px 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav-brand {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .nav-links {
+        display: flex;
+        gap: 24px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+      }
+      nav a:hover {
+        color: #ffd700;
+      }
+      /*—MAIN CONTENT WRAPPER—*/
+      .content {
+        padding: 30px;
+      }
+      /*—HERO SECTION—*/
+      .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+        border-radius: 8px;
+        background-color: #ffffff;
+        margin-bottom: 30px;
+      }
+      /*—HEADINGS—*/
+      h1 {
+        color: #0c447c;
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      h2 {
+        color: #1d9e75;
+        font-size: 22px;
+        border-bottom: 2px solid #1d9e75;
+        padding-bottom: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      /*—PARAGRAPHS—*/
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #555555;
+        margin-bottom: 12px;
+      }
+      /*-TABLES-*/
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+      th {
+        background-color: #0c447c;
+        color: white;
+        padding: 10px;
+        text-align: left;
+      }
+      td {
+        padding: 10px 15px;
+        border-bottom: 1px solid #dddddd;
+      }
+      tr:nth-child(even) {
+        background-color: #e8f4fd;
+      }
+      /*—LISTS—*/
+      ul, ol {
+        padding-left: 25px;
+        margin-bottom: 15px;
+      }
+      li {
+        margin-bottom: 6px;
+        line-height: 1.6;
+      }
+      /*-LINKS-*/
+      a {
+        color: #0c447c;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: #1d9e75;
+      }
+      /*-IMAGE-*/
+      img {
+        display: block;
+        margin: 15px auto;
+        border-radius: 8px;
+        max-width: 100%;
+      }
+      /*—FORM—*/
+      form {
+        max-width: 500px;
+        margin-top: 10px;
+      }
+      label {
+        display: block;
+        font-weight: bold;
+        margin: 5px;
+        color: #333333;
+      }
+      input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        font-size: 14px;
+      }
+      input:focus, textarea:focus {
+        border-color: #0c447c;
+        outline: none;
+      }
+      button {
+        background-color: #0c447c;
+        color: white;
+        padding: 12px 30px;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #1D9E75;
+      }
+      /*-FOOTER-*/
+      .footer {
+        text-align: center;
+        color: #999999;
+        font-size: 13px;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #dddddd;
+      }
+      /*—SKILLS—*/
+      .cards {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      margin: 20px 0;
+      }
+      .card {
+        flex: 1;
+        min-width: 80px;
+        background: white;
+        border-radius: 8px;
+        padding: 5px;
+        text-align: center;
+        border: 1px solid #dddddd;
+      }
+      .card h3 {
+        color-interpolation: #0C447C;
+        margin-bottom: 8px;
+      }
+      .card p {
+        font-size: 13px;
+        color: #777777;
+      }
