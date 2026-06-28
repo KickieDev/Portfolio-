@@ -12,3 +12,4 @@ console.log(isExcited);
 console.log(typeof myName);
 console.log(typeof daysLearning);
 console.log(typeof isExcited);
+document.body.innerHTML += "<h2 style='color:red; text-align:center;'>JavaScript is working! Days learning: " + daysLearning + "</h2>";
